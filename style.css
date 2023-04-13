@@ -1,0 +1,158 @@
+ /* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #F5DEB3;
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a.active,
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Main styles */
+main {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size:36px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #F5DEB3;
+      padding: 20px;
+      text-align: center;
+    }
+     body {
+  background-image: url('fpl3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.invite-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+.invite-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.invite-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.invite-section input[type="text"],
+.invite-section input[type="email"],
+.invite-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.invite-section input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.invite-section input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Style for the achievements table */
+.achievements-table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+}
+
+.achievements-table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.achievements-table th, 
+.achievements-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.achievements-table th {
+  background-color: #f5f5f5;
+  text-align: left;
+}
+
+.achievements-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.achievements-table tbody tr:last-of-type {
+  border-bottom: 2px solid #ddd;
+}
+
+.achievements-table td:first-of-type {
+  font-weight: bold;
+}
+
+.achievements-table td:last-of-type {
+  text-align: center;
+}
